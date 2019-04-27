@@ -14,7 +14,7 @@ const plaxMain = function () {
         headLine.style.transform = `translate(0, -${scrolled * 0.3}px)`;
         para.style.transform = `translate(0, -${scrolled * 0.3}px`;
 
-
+        /*
         let section = document.querySelector('section');
         let secPadTop = window.getComputedStyle(section).paddingTop;
         let secPadTopNum = parseInt(secPadTop.slice(0, secPadTop.length - 2));
@@ -33,9 +33,10 @@ const plaxMain = function () {
                 projCont.style.transform = `translate(0, -${(scrolled - startPlax) * 0.1}px)` ;
         }
         
-        
+        */
         
         })
+        
         
 };
 
